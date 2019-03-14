@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+	<head>
+		<title>Produtos</title>
+		<!--Import Google Icon Font-->
+      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      	<!--Import materialize.css-->
+      	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+      	<!--Let browser know website is optimized for mobile-->
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<h1>Cadastrar produtos:</h1>
+		<a href="/produtos" class="waves-effect waves-light btn"><i class="material-icons left">format_list_bulleted</i>lista de produtos</a>
+		<form class="container"  method="post">
+			
+				Nome:<input type="text" value="" name="nome"/>
+				
+			<div class="row">
+				<div class="input-field col s4">
+					Valor da compra: <input type="text" value="" name="valorCompra"/>
+				</div>
+				<div class="input-field col s4">
+					Valor de venda: <input type="text" value="" name="valorVenda"/>
+				</div>
+				<div class="input-field col s4">
+					Quantidade em estoque: <input type="number" value="" name="quantidadeEstoque"/>
+				</div>
+				Descrição:<input type="text" value="" name="descricao"/>
+			</div>
+			
+			
+			
+			
+		    
+			
+			
+			
+			
+			
+			
+			
+			<button type="submit" class="waves-effect waves-light btn"><i class="material-icons left">add_circle_outline</i>Salvar</buton>
+		</form>
+		
+		<!--JavaScript at end of body for optimized loading-->
+      	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	</body>
+
+</html>
